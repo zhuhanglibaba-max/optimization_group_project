@@ -5,9 +5,9 @@ Our task focuses on handling image classification problems (SVHN, CIFAR10, CIFAR
 
 
 .
-├── Adam_based.py: The file of training with Adam and AdamW. You can run it by commande line directly, with the parameters provided at the end of this file. 
-├── model.py: The model structure of ResNet-18 and VGG-16.
-├── nsgd_trainer.py: The execution file of training with noisy SGD.
-├── picker.py: The file for optimizer choice.
-├── ploter.py: The file for plotting the training curves.
-├── sgd_trainer.py: The file of training with SGD.
+├── Adam_based.py: The file of training with Adam and AdamW. You can run it directly, or using command line with the parameters provided at the end of this file.  
+├── model.py: The model structure of ResNet-18 and VGG-16.  
+├── nsgd_trainer.py: The execution file of training with noisy SGD. You can run it directly.  
+├── picker.py: The file for datasets and models choices.  
+├── ploter.py: The file for plotting the training curves.  
+├── sgd_trainer.py: The file of training with SGD. You can run it directly.    
